@@ -1,0 +1,134 @@
+/* Otros estilos para tu página */
+body{
+    background-color: rgb(208, 208, 208);
+    margin: 0;
+    padding: 0;
+}
+/* ... */
+
+/* Estilos para el Contenido de la Página */
+.contenido {
+    padding: 20px;
+}
+
+/*logo*/
+img {
+    width: 5vmax;
+    height: 5vmax;
+}
+
+
+/* Estilos para la clase botones-derecha */
+.botones-derecha {
+    margin-left: auto; /* Esto empujará los botones hacia la derecha */
+    display: flex;    /* Para que los botones estén en línea */
+    align-items: center; /* Alinear verticalmente los elementos en el centro si es necesario */
+}
+
+.botones-derecha button {
+    margin-left: 10px; /* Ajusta el margen entre los botones si es necesario */
+}
+/* Otros estilos para tu página */
+
+/* ... */
+
+/* Estilos para el Contenido de la Página */
+.contenido {
+    padding: 20px;
+    display: flex; /* Usa el modelo de caja flexible (Flexbox) */
+    align-items: center; /* Centra los elementos verticalmente */
+}
+.texto {
+    flex: 1; /* Ocupa el espacio restante disponible en el contenedor */
+    padding: 20px;
+}
+/*logo*/
+img {
+    width: 5vmax;
+    height: 5vmax;
+}
+.inicio {
+    flex: 1; /* Ocupa el espacio restante disponible en el contenedor */
+    padding: 20px;
+}
+.inicio img {
+    width: 40%; /* Puedes ajustar el porcentaje según tus necesidades */
+    height: auto; /* Esto mantiene la proporción original de la imagen */
+    max-width: 40%; /* Garantiza que la imagen no se extienda más allá de su tamaño original */
+    display: block; /* Elimina espacios adicionales alrededor de la imagen */
+    margin: 0 auto; /* Centra la imagen dentro de su contenedor */
+}
+
+li {
+    background-color: rgb(183, 0, 255);
+    margin: 0; /* Añade margen 0 */
+    padding: 10px;
+   
+}
+
+button {
+    background-color: rgb(183, 0, 255);
+    margin-left: auto;
+    border-color: rgb(183, 0, 255);
+}
+
+.contenedor {
+    display: flex;
+}
+
+/* Estilos para la clase botones-derecha */
+.botones-derecha {
+    margin-left: auto; /* Esto empujará los botones hacia la derecha */
+    display: flex;    /* Para que los botones estén en línea */
+    align-items: center; /* Alinear verticalmente los elementos en el centro si es necesario */
+  
+}
+
+.botones-derecha button {
+    margin-left: 40px;
+    padding: 10px 20px; /* Ajusta el relleno según tus necesidades para aumentar el tamaño del botón */
+    font-size: 16px;   /* Ajusta el tamaño del texto del botón */
+    background-color: rgb(183, 0, 255);
+    border-color: rgb(183, 0, 255);
+    color: #fff;       /* Ajusta el color del texto si es necesario */
+   border-radius: 10%;
+}
+.botones-derecha button a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;  /* Aplica text-decoration: none; al enlace dentro del botón */
+    font-family: Arial, Helvetica, sans-serif;
+}
+button.login-btn {
+    background-color: #9b9b9b; /* Cambia el color según tus preferencias */
+    border-color:#9b9b9b ;
+    color: #fff; /* Cambia el color del texto si es necesario */
+}
+h1{
+    color: rgb(183, 0, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 8vmin;
+}
+h2{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4vmin;
+}
+footer{
+    left: 99%;
+    width: 99%; /* Puedes cambiar este valor según tus necesidades */
+    padding: 25px;
+    background-color: rgb(183, 0, 255);
+}
+footer img {
+    width: 7%; /* Puedes ajustar este valor según tus necesidades */
+    height: auto; /* Para mantener la proporción original de la imagen */
+    text-align: center;
+    
+}
+.librito {
+    width: 7%; /* Puedes ajustar este valor según tus necesidades */
+    height: auto; /* Para mantener la proporción original de la imagen */
+    margin-right: 26px; /* Agrega margen a la derecha para separar las imágenes */
+}
+

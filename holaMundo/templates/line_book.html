@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% load static %}
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Line book</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}" />
+  </head>
+  <body>
+    <header class="barra-superior">
+      <nav>
+        <ul class="contenedor">
+          <img src=" {% static 'imagenes/logo.png' %}" alt="logo" />
+          <div class="botones-derecha">
+            <button class="login-btn">
+              <a href="{% url 'login' %}">Inicia sesión</a>
+            </button>
+            <button><a href="{% url 'register' %}">Regístrate</a></button>
+          </div>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Contenido de la Página -->
+    <div class="contenido">
+      <div class="texto">
+        <h1>Line book</h1>
+        <h2>
+          El lugar donde tu imaginación hace que viajes<br />
+          a través de la pantalla
+        </h2>
+      </div>
+      <div class="inicio">
+        <img src="{% static 'imagenes/inicio.jpeg' %}" alt="inicio" />
+      </div>
+    </div>
+    <br /><br /><br /><br />
+    <footer>
+      <div class="libritos">
+        <img
+          class="librito"
+          src="{% static 'imagenes/antes_diciembre.jpg' %}"
+          alt="libritos"
+        />
+        <img
+          class="librito"
+          src="{% static 'imagenes/heist.jpg' %} "
+          alt="libritos"
+        />
+        <img
+          class="librito"
+          src="{% static 'imagenes/boulevard.jpg' %}"
+          alt="libritos"
+        />
+        <img
+          class="librito"
+          src="{% static 'imagenes/cuento.jpg' %}"
+          alt="libritos"
+        />
+        <img
+          class="librito"
+          src="{% static 'imagenes/mentirosos.jpg' %}"
+          alt="libritos"
+        />
+        <img
+          class="librito"
+          src="{% static 'imagenes/circulo.jpg' %}"
+          alt="libritos"
+        />
+        <img
+          class="librito"
+          src="{% static 'imagenes/rojo.jpg' %}"
+          alt="libritos"
+        />
+        <img
+          class="librito"
+          src="{% static 'imagenes/hipotesis.jpg' %}"
+          alt="libritos"
+        />
+        <img
+          class="librito"
+          src="{% static 'imagenes/quimica.jpg' %}"
+          alt="libritos"
+        />
+        <img
+          class="librito"
+          src="{% static 'imagenes/oportunidad.jpg' %}"
+          alt="libritos"
+        />
+        <img
+          class="librito"
+          src="{% static 'imagenes/locos.jpg' %}"
+          alt="libritos"
+        />
+      </div>
+    </footer>
+  </body>
+</html>

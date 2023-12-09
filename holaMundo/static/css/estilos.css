@@ -1,0 +1,131 @@
+.ventana{
+    background-color: #f3b8fd; /* Fondo blanco para la ventana */
+    max-width: 600px; /* Ajusta el ancho máximo según tus necesidades */
+    margin: 50px auto; /* Centra el cuadro blanco vertical y horizontalmente */
+    padding: 20px; /* Añade relleno al contenido dentro de la ventana */
+    border-radius: 10px; /* Añade esquinas redondeadas para dar un aspecto más suave */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Añade una sombra suave para destacar la ventana */
+    text-align: center; /* Centra el texto dentro de la ventana */
+}
+.contenedor {
+    display: flex;
+}
+.botones-derecha {
+    margin-left: auto; /* Esto empujará los botones hacia la derecha */
+    display: flex;    /* Para que los botones estén en línea */
+    align-items: center; /* Alinear verticalmente los elementos en el centro si es necesario */
+}
+
+.botones-derecha button {
+    margin-left: 10px; /* Ajusta el margen entre los botones si es necesario */
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Puedes cambiar la fuente según tus preferencias */
+    background-color: rgb(208, 208, 208);
+}
+.contenido {
+    padding: 20px;
+}
+
+/*logo*/
+img {
+    width: 5vmax;
+    height: 5vmax;
+}
+h1{
+    color: rgb(183, 0, 255);
+}
+form input {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 5px;
+    margin: 5px 0;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+.login-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.login-form {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.login-form h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.login-form button  {
+    background-color: rgb(183, 0, 255);
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background-color: rgb(183, 0, 255);
+}
+
+.register-link {
+    margin-top: 20px;
+    color: #555;
+}
+
+.register-link a {
+    color: rgb(183, 0, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
+button.login-btn {
+    background-color: #9b9b9b;
+    color: rgb(183, 0, 255); /* Cambia el color del texto si es necesario */
+    text-decoration: none;
+}
+button.login-btn a{
+    
+    color: #fff; /* Cambia el color del texto si es necesario */
+    text-decoration: none;
+}
+button.feed {
+    background-color: rgb(183, 0, 255);
+    color: rgb(183, 0, 255); /* Cambia el color del texto si es necesario */
+    text-decoration: none;
+}
+button.feed a{
+    
+    color: #fff; /* Cambia el color del texto si es necesario */
+    text-decoration: none;
+}
+

@@ -4,5 +4,5 @@ from holaMundo import urls
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-	path('holaMundo/', include('holaMundo.urls')),
+    path('holaMundo/', include('holaMundo.urls')),
 ]

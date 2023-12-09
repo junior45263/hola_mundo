@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% load static %}
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registrate</title>
+    <link rel="stylesheet" href="{% static 'css/estilos.css' %}" />
+  </head>
+  <body>
+    <header class="barra-superior">
+      <nav>
+        <ul class="contenedor">
+          <img src="{% static 'imagenes/logo.png' %}" alt="logo" />
+        </ul>
+      </nav>
+    </header>
+    <div class="ventana">
+      <div class="login-container">
+        <h1>Unete a nuestra lectura</h1>
+        <form method="post" action="{% url 'register' %}" class="login-form">
+          <h1>Iniciar Sesión</h1>
+          {% csrf_token %} {{ form.as_p }}
+          <button type="submit">Registrarse</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

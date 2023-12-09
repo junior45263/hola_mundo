@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(208, 208, 208);
+}
+
+/*logo*/
+img {
+    width: 5vmax;
+    height: 5vmax;
+}
+
+/*logo*/
+img {
+    width: 5vmax;
+    height: 5vmax;
+}
+
+li {
+    background-color: rgb(183, 0, 255);
+    margin: 0;
+    /* Añade margen 0 */
+    padding: 10px;
+
+}
+
+.contenedor {
+    display: flex;
+}
+
+header {
+    background-color: rgb(183, 0, 255);
+    padding: 1px;
+    /* Ajusta el relleno según tus necesidades */
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+}
+
+.menu li {
+    margin-left: auto;
+    margin-right: 20px;
+    /* Espacio entre elementos del menú, ajusta según sea necesario */
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    /* Color del texto del menú */
+    font-weight: bold;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+    /* Efecto de subrayado al pasar el ratón sobre un enlace */
+}
+main {
+    padding: 20px;
+}
+
+.detalles-libro {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    max-width: 300px;
+    margin-right: 20px;
+}
+
+.info-libro {
+    flex: 1;
+}
+
+button {
+    background-color: rgb(183, 0, 255);
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+   border-radius: 10px;
+   font-size: 15px;
+}
+
+button:hover {
+    background-color: rgb(183, 0, 255);
+}
+.libro{
+    width: 20%;
+   height: 20%;
+}
+.contenido{
+    background-color: aqua;
+}
+/* Estilos para las etiquetas */
+.etiquetas {
+    margin-top: 10px;
+}
+
+.etiqueta {
+    display: inline-block;
+    padding: 5px 10px;
+    margin-right: 10px;
+    background-color: #333; /* Color de fondo de la etiqueta */
+    color: #fff; /* Color del texto de la etiqueta */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+.info-libro p {
+    text-align: justify;
+    
+}
+/* Ajuste de la posición de la imagen "Después de diciembre" */
+.detalles-libro .info-libro + .libro {
+    margin-left: 20px; /* Ajusta el valor según tu preferencia */
+}
+button{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu .separador {
+    margin-right: 500px; /* Ajusta el margen según tus preferencias */
+    
+}
+.menu li:first-child {
+    margin-left: auto;
+}
+
+.buscador-form {
+    display: flex;
+    align-items: center;
+}
+
+.buscador-form input {
+    margin-right: 10px; /* Ajusta el margen según tus preferencias */
+}
+
+.aqui{
+    background-color: #eaeaea;
+    color:rgb(183, 0, 255)  !important;
+
+}
+.alla{
+    background-color: #eaeaea;
+    color:rgb(183, 0, 255)  !important;
+
+}
+
